@@ -8,6 +8,7 @@
          <!--reset default browser styles-->
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
+        <link href="css/navbar.css" rel="stylesheet" />
         <!-- FONTS -->
         <!-- import locally: <link href="css/fonts/waltographUI.ttf" text="fonts" /> -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,6 +17,43 @@
         <!-- scripts -->
     </head>
     <body>
-       <h2 class="font">Hello</h2>
+       <!-- NAVBAR -->
+       <header>
+        <a href="#main-menu"
+           id="main-menu-toggle"
+           class="menu-toggle"
+           aria-label="Open main menu">
+          <span class="sr-only">open main menu</span>
+          <span class="fa fa-bars" aria-hidden="true">
+            <img src="img/icons/lion-facing-right.png" width="30px" height="30px" />
+          </span>
+        </a>
+        
+        <nav id="main-menu" class="main-menu" aria-label="Main menu">
+          <a href="#main-menu-toggle"
+             id="main-menu-close"
+             class="menu-close"
+             aria-label="Close main menu">
+            <span class="sr-only">close main menu</span>
+            <span class="fa fa-close" aria-hidden="true">
+              <img src="img/icons/lion-facing-right.png" width="30px" height="30px" />
+            </span>
+          </a>
+          <ul id="menu-list">
+            <li><a href="index.html">The Lion King</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="facts.html">Facts</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#main-menu-toggle"
+           class="backdrop"
+           tabindex="-1"
+           aria-hidden="true" hidden></a>
+      </header>
+
+
     </body>
 </html>
