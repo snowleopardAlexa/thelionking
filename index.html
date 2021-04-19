@@ -18,41 +18,33 @@
     </head>
     <body>
        <!-- NAVBAR -->
-       <header>
-        <a href="#main-menu"
-           id="main-menu-toggle"
-           class="menu-toggle"
-           aria-label="Open main menu">
-          <span class="sr-only">open main menu</span>
-          <span class="fa fa-bars" aria-hidden="true">
-            <img src="img/icons/lion-facing-right.png" width="30px" height="30px" />
-          </span>
-        </a>
-        
-        <nav id="main-menu" class="main-menu" aria-label="Main menu">
-          <a href="#main-menu-toggle"
-             id="main-menu-close"
-             class="menu-close"
-             aria-label="Close main menu">
-            <span class="sr-only">close main menu</span>
-            <span class="fa fa-close" aria-hidden="true">
-              <img src="img/icons/lion-facing-right.png" width="30px" height="30px" />
-            </span>
-          </a>
-          <ul id="menu-list">
-            <li><a href="index.html">The Lion King</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="characters.html">Characters</a></li>
-            <li><a href="facts.html">Facts</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <a href="#main-menu-toggle"
-           class="backdrop"
-           tabindex="-1"
-           aria-hidden="true" hidden></a>
-      </header>
+       <div class="header"></div>
+       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+       <label for="openSidebarMenu" class="sidebarIconToggle">
+         <img src="img/icons/lion-facing-right.png" width="30px" height="30px" />
+       </label>
+       <div id="sidebarMenu">
+         <ul class="sidebarMenuInner">
+           <li>The Lion King</li>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="characters.html">Characters</a></li>
+           <li><a href="facts.html">Facts</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+       </div>
+       <div id='center' class="main center">
+         <div class="mainInner">
+           <div>...</div>
+         </div>
+         <div class="mainInner">
+           <div>...</div>
+         </div>
+         <div class="mainInner">
+           <div>...</div>
+         </div>
+       </div>
 
 
     </body>
