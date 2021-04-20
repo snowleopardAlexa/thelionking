@@ -21,3 +21,10 @@ body {
 p {
     font-family: 'Raleway';
 }
+
+/* DISPLAY */
+
+.display {
+    max-width: 100%;
+    height: 100%;
+}
