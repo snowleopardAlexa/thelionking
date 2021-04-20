@@ -1,0 +1,30 @@
+/******** MAIN.CSS ********/
+
+/* FONTS */
+@font-face {
+    font-family: 'Waltograph';
+    font-family: 'Lion King';
+    /* src: url('waltograph42.otf'); */
+    src: local('fonts/waltographUI.ttf');
+    src: local('fonts/lion_king.ttf');
+  }
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+}
+
+.font {
+    font-family: 'Lion King', sans-serif;
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+/* DISPLAY */
+
+.display {
+    max-width: 100%;
+    height: 100%;
+}
