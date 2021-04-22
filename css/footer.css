@@ -12,6 +12,7 @@
 ul {
     list-style: none;
     padding-left: 0;
+    font-family: 'Waltograph';
 }
 
 footer {
@@ -32,8 +33,13 @@ a:hover {
 .footer-title {
     color: #fff;
     font-family: 'Waltograph';
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 0.5rem;
+
+}
+
+.item-list {
+    font-size: 1.5rem;
 }
 
 /* Flex container and the flex-wrap property will let the footer wrap into multiple rows based on the viewport size. */
@@ -64,6 +70,30 @@ main axis (which, in the default case, is the left of the screen).  */
         justify-content: space-evenly;
     }
 }
+/* footer main */
+/* newsletter form */ 
+form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+    background-color: #7c3303;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+  }
+
+  #footer-subtitle {
+      font-family: 'Waltograph';
+      font-size: 1rem;
+  }
 
 /* social icons footer */
 /* justify-content: center; rule aligns it to the center of the main axis at every screen size */
@@ -74,31 +104,34 @@ main axis (which, in the default case, is the left of the screen).  */
 .footer-social-list {
     display: flex;
     justify-content: center;
-    border-top: 1px #777 solid;
+    border-top: 1px rgb(214, 11, 11) solid;
     padding-top: 1.25rem;
+    font-size: 1rem;
 }
 
 .footer-social-list li {
     margin: 0.5rem;
-    font-size: 1.25rem;
 }
 
 /* flex: 1; rule on the .container element - flexbox allocated the entire positive space to it and 
 pushed the footer to the very bottom of the page. */
 .footer-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: #333;
+    background-color: rgb(214, 11, 11);
+    font-family: 'Waltograph';
 }
 
 .footer-legal-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    font-size: 1rem;
 }
 
 .footer-legal-list li {
     margin: 0.125rem 0.625rem;
     white-space: nowrap;
+    font-size: 1rem;
 }
 
 /* one before the last child */
