@@ -1,5 +1,4 @@
-/******** MAIN.CSS ********/
-
+/* MAIN */
 /* FONTS */
 @font-face {
     font-family: 'Waltograph';
@@ -9,9 +8,17 @@
     src: local('fonts/lion_king.ttf');
   }
 
+/* Footer - make body as flexbox so the footer can stick to the bottom */
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
+}
+
+.container {
+    flex: 1; /* same as flex-grow: 1; */
 }
 
 .font {
@@ -23,7 +30,6 @@ p {
 }
 
 /* DISPLAY */
-
 .display {
     max-width: 100%;
     height: 100%;
