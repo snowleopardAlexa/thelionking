@@ -1,7 +1,7 @@
 /* CHARACTERS */
 
 /* Jumbotron */
-.jumbotron {
+  .jumbotron {
     padding: 30px; /* fills out the jumbotron */
     background-color: orangered;  
   }
@@ -19,10 +19,50 @@
       text-align: center;
       font-size: 4rem;
       font-family: 'Waltograph';
-  
   }
 
-  /* Elephant icon */
+  .arrow-down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+ }
+
+ .label {
+     display: block;
+     cursor: pointer;
+     padding: 10px;
+ }
+
+ /* hide the checkbox */
+ input[type="checkbox"]{
+    position: absolute;
+    left: -9999px;
+  }
+
+/* show the collapsible */
+  input[type="checkbox"] ~ h2 {
+    height: 0;    
+    transform: scaleY(0);
+  }
+
+/* hide the collapsible */
+  input[type="checkbox"]:checked ~ h2 {
+    height: 100%;
+    transform-origin: top;
+    transition: transform .3s ease-out;
+    transform: scaleY(1); 
+  }
+ 
+.collapsible-text {
+    text-align: center;
+    font-family: 'Waltograph';
+    font-size: 2rem;
+}
+  
+/* Elephant icon */
 .elephant {
 /* center the icon, make it responsive */
     display: block;
@@ -30,13 +70,4 @@
     margin-right: auto;
     margin-bottom: 1rem;
   }
-  
-.arrow-down {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 20px;
-   width: 40px;
-   height: 40px;
    
-}
