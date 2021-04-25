@@ -1,6 +1,6 @@
 /* GRID-CHARACTERS */
 
-.container {
+.container-characters {
     /* fr - fraction unit, it represents a fraction of the available space in the grid container */
     height: 100vh;
     margin: 2rem;
