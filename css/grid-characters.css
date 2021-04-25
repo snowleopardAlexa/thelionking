@@ -123,3 +123,8 @@
     background-position: center;
     background-size: 50px;
 }
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
