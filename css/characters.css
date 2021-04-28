@@ -1,0 +1,73 @@
+/* CHARACTERS */
+
+/* Jumbotron */
+  .jumbotron {
+    padding: 30px; /* fills out the jumbotron */
+    background-color: orangered;  
+  }
+  
+  .container-jumbotron {
+     margin: 0 auto; /* centers the container */
+     padding: 0 15px; /* adds some padding to the left and right */ 
+  }
+  
+  .jumbotron .container {
+      max-width: 100%; /*  allows the jumbotron to adjust on smaller widths */
+  }
+  
+  .jumbotron h1 {
+      text-align: center;
+      font-size: 4rem;
+      font-family: 'Waltograph';
+  }
+
+  .arrow-down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+ }
+
+ .label {
+     display: block;
+     cursor: pointer;
+     padding: 10px;
+ }
+
+ /* hide the checkbox */
+ input[type="checkbox"]{
+    position: absolute;
+    left: -9999px;
+  }
+
+/* show the collapsible */
+  input[type="checkbox"] ~ h2 {
+    height: 0;    
+    transform: scaleY(0);
+  }
+
+/* hide the collapsible */
+  input[type="checkbox"]:checked ~ h2 {
+    height: 100%;
+    transform-origin: top;
+    transition: transform .3s ease-out;
+    transform: scaleY(1); 
+  }
+ 
+.collapsible-text {
+    text-align: center;
+    font-family: 'Waltograph';
+    font-size: 2rem;
+}
+  
+/* Elephant icon */
+.elephant {
+/* center the icon, make it responsive */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+   
