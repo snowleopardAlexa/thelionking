@@ -2,17 +2,18 @@
 
   .box {
     margin: 40px auto;   
-    margin: 40px 40px 40px 40px;
+    margin: 40px 40px 0px 40px;
   }
 
+  /*** card effect ***/
   .effect1
 {
     position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-.effect1:before, .effect8:after
+.effect1:before, .effect1:after
 {
   content:"";
     position:absolute;
@@ -36,6 +37,7 @@
             transform:skew(8deg) rotate(3deg);
 }
 
+
   .wrapper {
     padding: 2px 16px;
     display: grid;
@@ -54,13 +56,23 @@
       font-family: 'Lion King';
   }
 
-  div .mufasa-titles li {
+  div ul li {
       margin-top: 5px;
       font-weight: bold;
   }
 
+  .content h1 {
+    font-family: 'Lion King'; 
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  .grid-footer {
+    font-family: 'Lion King'; 
+  }
+
   @media (min-width: 500px) {
-    .side .animal .main-nav .mufasa-titles  {
+    .side .animal div ul  {
       margin-top: 5px;
       font-weight: bold;
       font-family: 'Raleway';
@@ -90,20 +102,18 @@
       font-family: 'Raleway'; 
     }
 
-    div .mufasa-titles {
+    div ul {
       display: flex;
       justify-content: space-between;
-      font-family: 'Raleway';
     }
 
     .grid-footer {
       text-align: center;
-      font-family: 'Lion King'; 
     }
   }
 
   @media (min-width: 700px) {
-    .side .animal .div .mufasa-titles {
+    .side .animal div ul {
         margin-top: 5px;
         font-weight: bold;
         font-family: 'Raleway'; 
@@ -119,6 +129,10 @@
       grid-row: 2 / 4;
     }
 
+    .content h1 {
+      font-family: 'Lion King'; 
+    }
+
     .side {
       grid-column: col-start 11 / span 2;
       grid-row: 2;
@@ -131,9 +145,10 @@
 
     .grid-footer {
       grid-column: col-start / span 12;
+      text-align: center;
     }
 
-    div .mufasa-titles {
+    div ul {
       flex-direction: column;
       margin-top: 5px; 
     }
@@ -148,6 +163,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+   .mufasa-image {
+    padding: 40px;
 }
 
   
