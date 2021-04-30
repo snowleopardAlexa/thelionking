@@ -1,7 +1,43 @@
 /* MUFASA-GRID */
 
+  .box {
+    margin: 40px auto;   
+    margin: 40px 40px 40px 40px;
+  }
+
+  .effect1
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.effect1:before, .effect8:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.5);
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+    top: 1px;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+}
+.effect1:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
   .wrapper {
-    padding: 15px;
+    padding: 2px 16px;
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     gap: 20px;
@@ -18,77 +54,100 @@
       font-family: 'Lion King';
   }
 
-
+  div .mufasa-titles li {
+      margin-top: 5px;
+      font-weight: bold;
+  }
 
   @media (min-width: 500px) {
+    .side .animal .main-nav .mufasa-titles  {
+      margin-top: 5px;
+      font-weight: bold;
+      font-family: 'Raleway';
+    }
 
     .side {
       grid-column: col-start / span 3;
       grid-row: 3;
     }
+
     .animal {
       grid-column: col-start / span 3;
       grid-row: 4;
     }
+
     .content, .grid-footer {
       grid-column: col-start 4 / span 9;
-      font-family: 'Lion King';
     }
 
     .content h1 {
-        margin-bottom: 15px;
-        font-size: 1.5rem;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      font-family: 'Lion King'; 
     }
 
     .content p {
       font-family: 'Raleway'; 
     }
 
-    div ul {
+    div .mufasa-titles {
       display: flex;
       justify-content: space-between;
       font-family: 'Raleway';
     }
 
     .grid-footer {
-        text-align: center;
+      text-align: center;
+      font-family: 'Lion King'; 
     }
   }
 
-  /* image of mufasa */
-  .responsive {
-      max-width: 100%;
-      max-height: 100%;
-      align-items: center;
-      /* center the image */
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
   @media (min-width: 700px) {
+    .side .animal .div .mufasa-titles {
+        margin-top: 5px;
+        font-weight: bold;
+        font-family: 'Raleway'; 
+      }
+
     .main-nav {
       grid-column: col-start / span 2;
       grid-row: 2 / 4;
     }
+
     .content {
       grid-column: col-start 3 / span 8;
       grid-row: 2 / 4;
     }
+
     .side {
       grid-column: col-start 11 / span 2;
       grid-row: 2;
     }
+
     .animal {
       grid-column: col-start 11 / span 2;
-      grid-row: 3;
+      grid-row: 3;    
     }
+
     .grid-footer {
       grid-column: col-start / span 12;
     }
-    div ul {
+
+    div .mufasa-titles {
       flex-direction: column;
+      margin-top: 5px; 
     }
   }
+
+   /* image of mufasa */
+   .responsive {
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    /* center the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
   
