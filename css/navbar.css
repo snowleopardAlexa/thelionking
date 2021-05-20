@@ -41,6 +41,7 @@
   
   .nav > .nav-links > a {
     display: inline-block;
+    margin-right: 12px;
     padding: 28px 8px 28px 8px;
     text-decoration: none;
     color: #efefef;
