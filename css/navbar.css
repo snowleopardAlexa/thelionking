@@ -12,7 +12,7 @@
   }
   
   .nav {
-    height: 45px;
+    height: 73px;
     width: 100%;
     background-color: #c90909;
     position: relative;
@@ -24,9 +24,9 @@
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 2rem;
     color: #fff;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
   }
   
   .nav > .nav-btn {
@@ -36,12 +36,12 @@
   .nav > .nav-links {
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   
   .nav > .nav-links > a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 28px 8px 28px 8px;
     text-decoration: none;
     color: #efefef;
   }
