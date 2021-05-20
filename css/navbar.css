@@ -59,8 +59,8 @@
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      right: 0px;
-      top: 0px;
+      right: 5px;
+      top: 15px;
     }
     .nav > .nav-btn > label {
       margin-top: 20px;
