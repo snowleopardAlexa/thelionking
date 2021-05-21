@@ -14,7 +14,7 @@
   .nav {
     height: 73px;
     width: 100%;
-    background-color: #c90909;
+    background-color: #a70202;
     position: relative;
   }
   
@@ -72,7 +72,7 @@
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #c90909;
+      background-color: #a70202;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
       top: 50px;
