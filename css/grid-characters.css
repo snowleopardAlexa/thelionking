@@ -29,6 +29,11 @@
     color: rgb(109, 46, 5);
 }
 
+.ending {
+    font-family: 'Waltograph';
+    text-align: center;
+}
+
 .character-1 {
     background-color: #FCF03C;
     background-image: url("../img/icons/lion.png");

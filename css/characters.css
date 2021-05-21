@@ -64,11 +64,16 @@
 }
   
 /* Elephant icon */
-.elephant {
+.elephant-icon {
 /* center the icon, make it responsive */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
   }
+
+.elephant {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}  
    
