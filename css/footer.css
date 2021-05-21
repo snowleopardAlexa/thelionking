@@ -83,7 +83,7 @@ form {
     margin-top: 0.3125rem;
   }
   input[type="submit"] {
-    background-color: #7c3303;
+    background-color: #5a2502;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -93,7 +93,7 @@ form {
 
   #footer-subtitle {
       font-family: 'Waltograph';
-      font-size: 1rem;
+      font-size: 1.5rem;
   }
 
 /* social icons footer */
@@ -118,7 +118,7 @@ form {
 pushed the footer to the very bottom of the page. */
 .footer-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: rgb(214, 11, 11);
+    background-color: rgb(196, 9, 9);
     font-family: 'Waltograph';
 }
 
