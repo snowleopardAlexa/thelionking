@@ -21,6 +21,14 @@
     font-family: 'Waltograph';
 }
 
+.container-characters > .link:hover {
+   color: black;
+}
+
+.link:hover {
+    color: rgb(109, 46, 5);
+}
+
 .character-1 {
     background-color: #FCF03C;
     background-image: url("../img/icons/lion.png");
