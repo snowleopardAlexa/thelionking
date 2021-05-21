@@ -2,62 +2,77 @@
 
 .container-characters {
     /* fr - fraction unit, it represents a fraction of the available space in the grid container */
-    height: 100vh;
+    height: 300vh;
     margin: 2rem;
     display: grid;
     /* 3 equal columns */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /* 4 equal rows */
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
     /* gap between grid cells */
     grid-gap: 10px 10px
-}
-
-.character {
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    padding: 4rem;
 }
 
 .name {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-family: 'Waltograph';
 }
 
+.name:hover {
+    color: rgb(182, 18, 182);
+}
+
+
+
+#char {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-characters > .link:hover {
+   color: black;
+}
+
+
+
+.ending {
+    font-family: 'Waltograph';
+    text-align: center;
+}
+
 .character-1 {
-    background-color: #91080d;
+    background-color: #FCF03C;
     background-image: url("../img/icons/lion.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-2 {
-    background-color: #7c120c;
+    background-color: #ff7c01;
     background-image: url("../img/icons/lioness.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-3 {
-    background-color: #BB3D02;
+    background-color: #ff7c01;
     background-image: url("../img/icons/smalllion.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-4 {
-    background-color: #FF9B15;
+    background-color: #FCF03C;
     background-image: url("../img/icons/smalllion.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-5 {
@@ -65,66 +80,62 @@
     background-image: url("../img/icons/lion.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-6 {
-    background-color: #F95404;
+    background-color: #ff7c01;
     background-image: url("../img/icons/meerkat.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-7 {
-    background-color: #138308;
+    background-color: #ff7c01;
     background-image: url("../img/icons/hog.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-8 {
-    background-color: #702925;
+    background-color: #FCF03C;
     background-image: url("../img/icons/mandrill.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-9 {
-    background-color: #815d4c;
+    background-color: #FCF03C;
     background-image: url("../img/icons/hornbill.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-10 {
-    background-color: #157aff;
+    background-color: #ff7c01;
     background-image: url("../img/icons/hyena.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-11 {
-    background-color: #8d1d97;
+    background-color: #ff7c01;
     background-image: url("../img/icons/lion.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
 .character-12 {
-    background-color: #de0de6;
+    background-color: #FCF03C;
     background-image: url("../img/icons/lioness.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50px;
+    background-size: 100px;
 }
 
-.link {
-    text-decoration: none;
-    color: #000;
-}
