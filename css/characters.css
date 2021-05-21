@@ -16,6 +16,7 @@
   }
   
   .jumbotron h1 {
+      padding: 70px;
       text-align: center;
       font-size: 4rem;
       font-family: 'Waltograph';
