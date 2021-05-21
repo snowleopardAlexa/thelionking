@@ -13,13 +13,19 @@
     grid-gap: 10px 10px
 }
 
-a > .name {
+.name {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
     font-size: 3rem;
     font-family: 'Waltograph';
 }
+
+.name:hover {
+    color: rgb(182, 18, 182);
+}
+
+
 
 #char {
     text-decoration: none;
@@ -30,9 +36,7 @@ a > .name {
    color: black;
 }
 
-.link:hover {
-    color: rgb(182, 18, 182);
-}
+
 
 .ending {
     font-family: 'Waltograph';
@@ -135,7 +139,3 @@ a > .name {
     background-size: 100px;
 }
 
-.link {
-    text-decoration: none;
-    color: #000;
-}
