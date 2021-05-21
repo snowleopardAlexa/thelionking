@@ -40,7 +40,7 @@ p {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #a70202;
+    background-color: rgb(22, 20, 20);
     color: #fff;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -72,4 +72,15 @@ p {
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+}
+
+.header-responsive-img {
+    margin-top: 50px;
+}
+
+.header-two-text {
+    text-align: center;
+    font-family: 'Waltograph';
+    font-size: 1.5rem;
+    margin-bottom: 50px;
 }
