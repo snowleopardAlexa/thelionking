@@ -1,5 +1,13 @@
 /*** ABOUT ***/
 
+.container-about {
+    margin: 40px;
+    background-color: rgb(150, 0, 0); /* Needed for IEs */
+    -moz-box-shadow: 10px 10px 10px #cccbcb;
+    -webkit-box-shadow: 10px 10px 10px #cccbcb;
+    box-shadow: 10px 10px 10px #cccbcb;
+}
+
 .card {
     max-width: 55%;
     margin-top: 50px;
@@ -7,6 +15,9 @@
     margin-left: auto;
     margin-bottom: 50px;
     font-family: 'Lion-King';
+    position: relative; /* This protects the inner element from being blurred */
+    padding: 100px;
+    background-color: #DDD;
 }
 
 .card-header {
