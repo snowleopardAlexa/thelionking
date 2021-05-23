@@ -4,8 +4,8 @@
     margin: 40px;
     background-color: rgb(202, 14, 14);
     -webkit-box-shadow: 0 10px 6px -6px #777;
-     -moz-box-shadow: 0 10px 6px -6px #777;
-          box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .card {
