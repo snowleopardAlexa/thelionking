@@ -1,6 +1,7 @@
 /*** ABOUT ***/
 
 .card {
+    max-width: 55%;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Lion-King';
@@ -18,5 +19,5 @@
 
 .card-text {
      font-size: 1.2rem;
-     font-family: 'Raleway';
+     font-family: 'KoHo', serif;
 }
