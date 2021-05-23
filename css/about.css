@@ -33,10 +33,11 @@
 
 .card-subtitle {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
 .card-subtext {
     font-family: 'KoHo', serif;
+    font-size: 1.2rem;
 }
