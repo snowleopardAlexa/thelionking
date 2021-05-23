@@ -1,0 +1,12 @@
+/*** ABOUT ***/
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Lion-King';
+}
+
+.card-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
