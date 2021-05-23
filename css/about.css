@@ -1,6 +1,17 @@
 /*** ABOUT ***/
 
+.container-about {
+    margin: 40px;
+    background-color: rgb(255, 0, 0);
+    -moz-box-shadow: 10px 10px 10px #000;
+    -webkit-box-shadow: 10px 10px 10px #000;
+    box-shadow: 10px 10px 10px #000;
+}
+
 .card {
+    position: relative;
+    padding: 100px;
+    background-color: orangered;
     max-width: 55%;
     margin-top: 50px;
     margin-right: auto;
