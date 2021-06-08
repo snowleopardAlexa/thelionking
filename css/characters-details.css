@@ -180,3 +180,8 @@
   font-size: 1.7rem;
 }
 
+.character-personality > p {
+  font-size: 1.2rem;
+  font-family: 'Marcellus', serif;
+  margin-top: 20px;
+}
