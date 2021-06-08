@@ -58,8 +58,8 @@
   }
 
   div ul li {
+      font-size: 1.7rem;
       margin-top: 5px;
-      font-weight: bold;
   }
 
   .content h1 {
@@ -76,7 +76,6 @@
     .side .animal div ul  {
       margin-top: 5px;
       font-weight: bold;
-      font-family: 'Marcellus', serif;
     }
 
     .side {
@@ -118,7 +117,6 @@
     .side .animal div ul {
         margin-top: 5px;
         font-weight: bold;
-        font-family: 'Marcellus', serif;
       }
 
     .main-nav {
