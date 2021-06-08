@@ -76,7 +76,7 @@
     .side .animal div ul  {
       margin-top: 5px;
       font-weight: bold;
-      font-family: 'Raleway';
+      font-family: 'Marcellus', serif;
     }
 
     .side {
@@ -100,7 +100,8 @@
     }
 
     .content p {
-      font-family: 'Raleway'; 
+      font-family: 'Marcellus', serif;
+      font-size: 1.2rem;
     }
 
     div ul {
@@ -117,7 +118,7 @@
     .side .animal div ul {
         margin-top: 5px;
         font-weight: bold;
-        font-family: 'Raleway'; 
+        font-family: 'Marcellus', serif;
       }
 
     .main-nav {
