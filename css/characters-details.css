@@ -3,7 +3,7 @@
 
 .box {
     margin: 40px auto;   
-    margin: 40px 40px 0px 40px;
+    margin: 40px 40px 40px 40px;
   }
 
   /*** card effect ***/
@@ -165,7 +165,7 @@
     margin-right: auto;
 }
    .character-display-photo {
-    margin-top: 40px;
+
 }
 
 /* character personality */
