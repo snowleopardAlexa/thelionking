@@ -155,8 +155,8 @@
     }
   }
 
-   /* image of mufasa */
-   .persona-image-responsive {
+   /* image of character - responsive */
+   .character-display-photo {
     max-width: 100%;
     max-height: 100%;
     align-items: center;
@@ -165,7 +165,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-   .persona-image {
+   .character-display-photo {
     padding: 40px;
 }
