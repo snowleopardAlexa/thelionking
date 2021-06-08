@@ -168,3 +168,15 @@
    .character-display-photo {
     padding: 40px;
 }
+
+/* character personality */
+
+.character-personality {
+  padding: 40px 40px;
+}
+
+.character-personality > h2 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
