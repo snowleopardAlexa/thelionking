@@ -38,7 +38,6 @@
             transform:skew(8deg) rotate(3deg);
 }
 
-
   .wrapper {
     padding: 2px 16px;
     display: grid;
@@ -66,6 +65,10 @@
     font-family: 'Lion King'; 
     margin-bottom: 10px;
     font-size: 1.3rem;
+  }
+
+  .content p {
+    font-family: 'Marcellus', serif;
   }
 
   .grid-footer {
