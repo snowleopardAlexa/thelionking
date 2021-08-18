@@ -1,16 +1,17 @@
 .jumbotron {
   background-color: rgb(15, 14, 14);
-  margin-top: -5px;
+  margin-top: -4px;
   padding: 50px;
   text-align: center;
   font-family: 'Cinzel', serif;
   color: #fff;
+  border: 0.5px solid yellow;
 }
 
 .jumbo-btn {
   margin: 40px;
   padding: 25px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 0%;
   font-family: 'Cinzel', serif;
   border: none;
@@ -20,6 +21,10 @@
 
 .jumbo-title {
   font-size: 3rem;
+}
+
+.jumbo-title-news {
+  font-size: 2rem;
 }
 
 .intro-img {
