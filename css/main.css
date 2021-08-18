@@ -186,6 +186,10 @@ footer a {
     min-width: 200px; /* 12.5rem */
 }
 
+.footer .footer-item:nth-last-child(2) {
+   flex:1 /* pushes the item to the right */
+}
+
 /* newsletter form */ 
 form {
     display: flex;
@@ -252,7 +256,7 @@ form {
     font-size: 1.2rem;
 }
 
-/* last child - puts the item on the right like float:right */
+/* last child - puts the item to the right like float:right */
 .footer-legal-list li:nth-last-child(2) {
     flex: 1; /* same as flex-grow: 1; */
 }
