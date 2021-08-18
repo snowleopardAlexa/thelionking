@@ -1,3 +1,9 @@
+.intro-img {
+  height: 100%;
+  max-width: 100%;
+  margin-top: -10px;
+}
+
 .jumbotron {
   background-color: rgb(15, 14, 14);
   margin-top: -4px;
@@ -23,14 +29,24 @@
   font-size: 3rem;
 }
 
+/* :::::::::: CARDS NEWS :::::::::: */
+.cards-news {
+  padding: 10px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 100px;
+  max-width: 1160px;
+}
+
+article, .desc {
+  margin-top: 20px;
+}
+
 .jumbo-title-news {
   font-size: 2rem;
 }
 
-.intro-img {
-  height: 100%;
-  max-width: 100%;
-  margin-top: -10px;
-}
+
 
   
