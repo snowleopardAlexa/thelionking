@@ -42,7 +42,8 @@ label.logo {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #fff;
 }
 
 nav .nav-list {

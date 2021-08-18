@@ -93,6 +93,17 @@ article, .desc {
   margin-top: 10px;
 }
 
+.news-text-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.news-text-link:hover {
+  color: rgb(223, 205, 205);
+}
+
+
+
 /* :::::::::: TIMBAVATI NATIONAL PARK :::::::::: */
 .national-park-img {
   width: 100%;
