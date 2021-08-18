@@ -39,6 +39,7 @@ label.logo {
     line-height: 80px;
     padding: 0 40px;
     font-family: 'Lion King';
+    cursor: pointer;
 }
 
 a {
@@ -64,6 +65,10 @@ nav .nav-list li a {
     text-transform: uppercase;
     padding: 7px 13px;
     text-decoration: none;
+}
+
+nav .nav-list li a:hover {
+    color:rgb(224, 191, 4);
 }
 
 nav .nav-list li a.active {
