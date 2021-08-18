@@ -52,6 +52,39 @@ article, .desc {
   margin-top: 20px;
 }
 
+.news-img {
+  border: 1px solid yellow;
+}
+
+.great-news-img {
+  margin-top: 30px;
+}
+
+.jumbo-subtitle {
+  margin-top: 30px;
+  font-size: 1.7rem;
+}
+
+.great-news-text {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.container-desc {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+small {
+  display: block;
+  color: rgb(177, 171, 171);
+}
+
+.news-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
 
 
 
