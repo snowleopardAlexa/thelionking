@@ -4,6 +4,8 @@
   margin-top: -10px;
 }
 
+/*:::::::::: SEARCH FOR TICKETS :::::::::: */
+
 .jumbotron {
   background-color: rgb(15, 14, 14);
   margin-top: -4px;
@@ -29,7 +31,14 @@
   font-size: 3rem;
 }
 
-/* :::::::::: CARDS NEWS :::::::::: */
+/*:::::::::: LATEST NEWS ABOUT THE MOVIE :::::::::: */
+
+.jumbo-title-news {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
 .cards-news {
   padding: 10px;
   border-radius: 20px;
@@ -43,9 +52,7 @@ article, .desc {
   margin-top: 20px;
 }
 
-.jumbo-title-news {
-  font-size: 2rem;
-}
+
 
 
 
