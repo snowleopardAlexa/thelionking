@@ -13,7 +13,7 @@
   text-align: center;
   font-family: 'Cinzel', serif;
   color: #fff;
-  border: 0.5px solid yellow;
+  border: 0.5px solid rgb(80, 74, 74);
 }
 
 .jumbo-btn {
@@ -53,11 +53,14 @@ article, .desc {
 }
 
 .news-img {
-  border: 1px solid yellow;
+  border: 1px solid rgb(146, 138, 138);
 }
 
 .great-news-img {
   margin-top: 30px;
+  border: 1px solid rgb(146, 138, 138);
+  width: 100%;
+  height: 100%;
 }
 
 .jumbo-subtitle {
@@ -75,15 +78,18 @@ article, .desc {
   margin: 0 auto;
 }
 
-small {
-  display: block;
-  color: rgb(177, 171, 171);
-}
-
 .news-title {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+
+/* :::::::::: TIMBAVATI NATIONAL PARK :::::::::: */
+.national-park-img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(146, 138, 138);
+}
+
 
 
 
