@@ -182,6 +182,7 @@ form {
 
   input[type="email"] {
     font-family: 'Waltograph';
+    font-size: 1.5rem;
     border: 0;
     padding: 10px; /* 0.625rem; */
     margin-top: 5px; /* 0.3125rem; */
@@ -190,6 +191,7 @@ form {
   input[type="submit"] {
     font-family: 'Waltograph';
     background-color: #441d04;
+    font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
     border: 0;
