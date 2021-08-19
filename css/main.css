@@ -1,3 +1,5 @@
+/*:::::::::: FONTS :::::::::: */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Marcellus+SC&display=swap');
 /* 
 font-family: 'Cinzel', serif;
@@ -14,20 +16,16 @@ font-family: 'Marcellus SC', serif;
     src: local('fonts/lion_king.ttf');
 }
 
-/* page reset */
-/* - Universal selector that matches any html tag: div, body, button, all of them */
-* {
+/*:::::::::: BASIC RESET :::::::::: */
+
+* { /* - Universal selector that matches any html tag: div, body, button, all of them */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
-
 /*:::::::::: NAVBAR :::::::::: */
+
 nav {
     top: 0;
     background-color: #a70202;
@@ -128,6 +126,7 @@ nav .nav-list li a.active {
 }
 
 /*:::::::::: FOOTER :::::::::: */
+
 footer {
     background-color: #a70202;
     color: #fff;
