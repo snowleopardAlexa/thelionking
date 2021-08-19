@@ -169,6 +169,10 @@ footer a {
   font-size: 2.2rem;
 }
 
+.fa-instagram:hover, .fa-facebook:hover, .fa-pinterest:hover, .fa-twitter:hover {
+    color: rgb(255, 208, 0);
+}
+
 .footer-item {
     padding: 20px; /* 1.25rem; */
     min-width: 200px; /* 12.5rem */
@@ -199,7 +203,7 @@ form {
     margin-top: 5px /* 0.3125rem; */
   }
 
-  .footer-subtitle {
+.footer-subtitle {
     font-family: 'Waltograph';
     font-size: 1.2rem;
 }
