@@ -163,6 +163,10 @@ footer a {
     color: rgb(255, 208, 0);
 }
 
+.item-list li a.active {
+    color:rgb(224, 191, 4);
+}
+
 /* social-media */
 .fa-instagram, .fa-facebook, .fa-pinterest, .fa-twitter {
   font-size: 2.2rem;
