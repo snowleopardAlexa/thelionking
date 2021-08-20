@@ -22,8 +22,22 @@ font-family: 'Marcellus SC', serif;
   box-sizing: border-box;
 }
 
+/* Navbar */
+nav {
+    background-color: orangered;
+    height: 80px;
+    width: 100%;
+}
 
-/* FOOTER */
+label.logo {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: 'Lion King';
+}
+
+/* Footer */
 ul {
     list-style: none;
     padding-left: 0;
