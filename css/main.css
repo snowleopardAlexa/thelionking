@@ -144,7 +144,7 @@ footer a {
 }
 
 .fa-instagram, .fa-facebook, .fa-pinterest, .fa-twitter {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 a:hover {
@@ -165,13 +165,13 @@ a:hover {
 }
 
 /* Flex container and the flex-wrap property will let the footer wrap into multiple rows based on the viewport size. */
-.main-footer {
+.footer {
     padding: 1.25rem 1.85rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.main-footer-item {
+.footer-item {
     padding: 1.25rem;
     min-width: 12.5rem /* 200px */;
 }
@@ -182,13 +182,13 @@ main axis (which, in the default case, is the left of the screen).  */
 
 /* Larger screens - it looks better with media queries */
 @media only screen and (min-width: 30rem /* 478px */) {
-    main-footer {
+    footer {
         justify-content: space-around;
     }
 }
 
 @media only screen and (min-width: 77.5rem /* 1240px */) {
-    main-footer {
+    footer {
         justify-content: space-evenly;
     }
 }
@@ -219,11 +219,11 @@ form {
   }
 
 
-.footer-social {
+.footer-social-media {
     padding: 0 1.875rem 1.25rem;
 }
 
-.footer-social-list {
+.footer-social-media-list {
     display: flex;
     justify-content: center;
     border-top: 1px rgb(214, 11, 11) solid;
@@ -231,7 +231,7 @@ form {
     font-size: 1rem;
 }
 
-.footer-social-list li {
+.footer-social-media-list li {
     margin: 0.5rem;
 }
 
