@@ -37,6 +37,13 @@ label.logo {
     font-family: 'Lion King';
 }
 
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+
+
 /* Footer */
 ul {
     list-style: none;
