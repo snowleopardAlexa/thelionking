@@ -89,6 +89,7 @@ nav ul li a.active {
 @media (max-width: 858px) {
     .check-btn {
         display: block;
+        margin-top: 10px;
     }
     ul {
         position: fixed;
