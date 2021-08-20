@@ -79,7 +79,7 @@ nav .nav-list li a.active {
 @media (max-width: 952px) {
     label.logo {
         font-size: 1.7rem;
-        padding-left: 10px;
+        padding-left: 15px;
     }
     nav .nav-list li a {
         font-size: 1rem;
@@ -90,6 +90,7 @@ nav .nav-list li a.active {
     .check-btn {
         display: block;
         margin-top: 10px;
+        margin-right: 20px;
     }
     .nav-list {
         position: fixed;
