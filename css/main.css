@@ -24,7 +24,7 @@ font-family: 'Marcellus SC', serif;
 
 /* Navbar */
 nav {
-    background-color: orangered;
+    background-color: #551616;
     height: 80px;
     width: 100%;
 }
@@ -33,7 +33,7 @@ label.logo {
     color: #fff;
     font-size: 2rem;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 40px;
     font-family: 'Lion King';
 }
 
