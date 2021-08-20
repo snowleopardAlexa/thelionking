@@ -22,8 +22,16 @@ font-family: 'Marcellus SC', serif;
   box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 /* Navbar */
 nav {
+    
+   
+    top: 0;
     background-color: #a70202;
     height: 80px;
     width: 100%;
@@ -121,22 +129,18 @@ nav .nav-list li a.active {
     }
 }
 
-
-
-
-
 /* Footer */
-ul {
-    list-style: none;
-    padding-left: 0;
-    font-family: 'Waltograph';
-}
-
 footer {
     margin-top: 100px;
     background-color: #a70202;
     color: #fff;
     line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Waltograph';
 }
 
 footer a {
