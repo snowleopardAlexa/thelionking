@@ -57,6 +57,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a.active {
+    color:rgb(224, 191, 4);
+}
+
 /* checkbox */
 .check-btn {
     font-size: 2rem;
