@@ -15,169 +15,15 @@ font-family: 'Marcellus SC', serif;
 }
 
 /* page reset */
+/* - Universal selector that matches any html tag: div, body, button, all of them */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Footer - make body as flexbox so the footer can stick to the bottom */
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: 'Raleway', sans-serif;
-    background-color: #fff;
-}
-
-.container {
-    flex: 1; /* same as flex-grow: 1; */
-}
-
-.font {
-    font-family: 'Lion King', sans-serif;
-}
-
-p {
-    font-family: 'Raleway';
-}
-
-
-
-/* header */
-.card {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(22, 20, 20);
-    color: #fff;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
-
-.card > h1 {
-    font-size: 3rem;
-    margin-top: 60px;
-    padding: 10px;
-}
-
-.card > h2 {
-    font-size: 2rem;
-}
-
-.card > h3 {
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-bottom: 60px;
-}
-
-
-
-
-
-/* NAVBAR */
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px;
-    font-family: 'Lion King'
-  }
-  
-  .nav {
-    height: 73px;
-    width: 100%;
-    background-color: #a70202;
-    position: relative;
-  }
-  
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 2rem;
-    color: #fff;
-    padding: 19px 20px 19px 20px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 1.2rem;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    margin-right: 12px;
-    padding: 28px 8px 28px 8px;
-    text-decoration: none;
-    color: #efefef;
-  }
-  
-  .nav > .nav-links > a:hover {
-    color: rgb(236, 182, 5);
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  
-  @media (max-width: 1200px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 5px;
-      top: 15px;
-    }
-    .nav > .nav-btn > label {
-      margin-top: 20px;
-      padding: 10px;
-    }
-
-    .nav > .nav-links {
-      z-index: 9;
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #a70202;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      margin-left: 16px;
-      display: block;
-      width: 100%;
-      height: 60px;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-  }
 
 /* FOOTER */
-/* * - Universal selector that matches any html tag: div, body, button, all of them */
-* {
-    /* padding and borders included in the total width and height of the element */
-    box-sizing: border-box;
-    font-family: 'Waltograph';
-    margin: 0;
-    padding: 0;
-}
-
 ul {
     list-style: none;
     padding-left: 0;
@@ -192,7 +38,11 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #eee;
+    color: #fff;
+}
+
+.fa-instagram, .fa-facebook, .fa-pinterest, .fa-twitter {
+  font-size: 2rem;
 }
 
 a:hover {
@@ -252,7 +102,8 @@ form {
     margin-top: 0.3125rem;
   }
   input[type="submit"] {
-    background-color: #7c3303;
+    font-family: 'Waltograph';
+    background-color: #441d04;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -265,8 +116,7 @@ form {
       font-size: 1rem;
   }
 
-/* social icons footer */
-/* justify-content: center; rule aligns it to the center of the main axis at every screen size */
+
 .footer-social {
     padding: 0 1.875rem 1.25rem;
 }
