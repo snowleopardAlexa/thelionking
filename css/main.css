@@ -78,8 +78,8 @@ nav ul li a.active {
 
 @media (max-width: 952px) {
     label.logo {
-        font-size: 2rem;
-        padding-left: 50px;
+        font-size: 1.7rem;
+        padding-left: 10px;
     }
     nav ul li a {
         font-size: 1rem;
@@ -121,6 +121,9 @@ nav ul li a.active {
 }
 
 
+
+
+
 /* Footer */
 ul {
     list-style: none;
@@ -129,6 +132,7 @@ ul {
 }
 
 footer {
+    margin-top: 100px;
     background-color: #a70202;
     color: #fff;
     line-height: 1.5;
