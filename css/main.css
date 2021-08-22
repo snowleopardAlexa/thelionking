@@ -1,4 +1,11 @@
-/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Marcellus+SC&display=swap');
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Marcellus SC', serif;
+*/
+
+/* local fonts */
 @font-face {
     font-family: 'Waltograph';
     font-family: 'Lion King';
