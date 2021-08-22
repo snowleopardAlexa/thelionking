@@ -1,28 +1,28 @@
-/*** ABOUT ***/
+
 
 .card {
-    position: relative;
+    color: #000;
     background-color: #fff;
-    padding: 100px;
     max-width: 70%;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
     font-family: 'Lion-King';
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-header {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
+.card__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: center;
-}
+
+
 
 .card-text {
      font-size: 1.2rem;

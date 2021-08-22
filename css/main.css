@@ -12,7 +12,14 @@ font-family: 'Marcellus SC', serif;
     /* src: url('waltograph42.otf'); */
     src: local('fonts/waltographUI.ttf');
     src: local('fonts/lion_king.ttf');
-  }
+}
+
+/* page reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Footer - make body as flexbox so the footer can stick to the bottom */
 body {
