@@ -1,5 +1,3 @@
-/***** MAIN ******/
-
 /* FONTS */
 @font-face {
     font-family: 'Waltograph';
@@ -37,7 +35,7 @@ p {
 }
 
 /* header */
-.header {
+.card {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -48,17 +46,17 @@ p {
     transition: 0.3s;
 }
 
-.header > h1 {
+.card > h1 {
     font-size: 3rem;
     margin-top: 60px;
     padding: 10px;
 }
 
-.header > h2 {
+.card > h2 {
     font-size: 2rem;
 }
 
-.header > h3 {
+.card > h3 {
     font-size: 1.5rem;
     padding: 10px;
     margin-bottom: 60px;
@@ -75,16 +73,7 @@ p {
     transition: 0.3s;
 }
 
-.header-responsive-img {
-    margin-top: 50px;
-}
 
-.header-two-text {
-    text-align: center;
-    font-family: 'Waltograph';
-    font-size: 1.5rem;
-    margin-bottom: 50px;
-}
 
 /* NAVBAR */
 * {
