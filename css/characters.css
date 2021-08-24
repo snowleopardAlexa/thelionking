@@ -4,7 +4,6 @@
 }
 
 .gallery {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* we need 6 rows because each column takes grid-row span 2 | 2 * 3 = 6 */
@@ -91,7 +90,13 @@
 
 /* MAKE IT RESPONSIVE */
 @media screen and (max-width: 560px) {
+  body {
+    background-color: #a70202;
+  }
   .gallery {
     display: block;
+  }
+  .gallery__img {
+    margin-top: -2px;
   }
 }
