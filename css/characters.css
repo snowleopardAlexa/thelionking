@@ -1,6 +1,6 @@
 .wrapper {
   max-width: 100%;
-  margin: 10px auto;  /* bug, without 10px top the grid shrinks, it has something to do with nav .nav-list float:right */
+  margin: 10px auto;  /* bug, without 10px top the grid shrinks, it has something to do with nav .nav-list float:right | inline css added to navbar and footer: border top and bottom: #fff */
 }
 
 body {
