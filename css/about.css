@@ -1,13 +1,12 @@
 .card-about {
-    background-color: black;
+    background-color: rgb(15, 14, 14);
     color: #fff;
-    padding: 50px;
+    padding: 120px;
     font-family: 'Marcellus SC', serif;
 }
 
 .card-desc {
     max-width: 60%;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -20,4 +19,11 @@
 
 .card-text {
     font-size: 1.2rem;
+}
+
+.about-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
 }
