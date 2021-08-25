@@ -24,6 +24,8 @@ font-family: 'Marcellus SC', serif;
   box-sizing: border-box;
 }
 
+
+
 /*:::::::::: NAVBAR :::::::::: */
 
 nav {
@@ -36,7 +38,7 @@ nav {
 label.logo {
     color: #fff;
     font-size: 1.2rem;
-    line-height: 70px;
+    line-height: 80px;
     margin-left: 20px;
     margin-top: 20px;
     font-family: 'Lion King';
@@ -61,7 +63,7 @@ nav .nav-list {
 
 nav .nav-list li {
     display: inline-block;
-    line-height: 75px;
+    line-height: 85px;
     margin: -2.5px 5px;
 }
 
