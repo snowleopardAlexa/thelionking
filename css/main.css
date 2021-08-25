@@ -24,7 +24,9 @@ font-family: 'Marcellus SC', serif;
   box-sizing: border-box;
 }
 
-
+body {
+  background-color: rgb(15, 14, 14);
+}
 
 /*:::::::::: NAVBAR :::::::::: */
 
