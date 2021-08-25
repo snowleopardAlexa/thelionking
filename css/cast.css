@@ -1,0 +1,14 @@
+.card-cast {
+    text-align: center;
+    border: 1px solid red;
+}
+
+.cast-title {
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Lion King';
+}
+
+.cast-list li {
+    color: #fff;
+}
